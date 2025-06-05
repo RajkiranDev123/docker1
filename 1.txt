@@ -1,0 +1,19 @@
+
+C:\Users\HP> docker -v = check version, 
+docker run -it image not container = spin up a new container,
+C:\Users\HP>docker run -it ubuntu == root@64cc7edfc043:/# ls = run ubuntu in -it mode and use ls command to run inside the container,
+root@64cc7edfc043:/# = press ctrl d == C:\Users\HP>,
+C:\Users\HP>docker container ls = list all running containers,
+C:\Users\HP>docker container ls -a = list all whether running or not,
+C:\Users\HP>docker run -it ubuntu = spin up new container,
+C:\Users\HP>docker start  stoic_sammet=docker start is used to restart containers that have been stopped!,
+C:\Users\HP>docker stop  stoic_sammet=to stop,
+C:\Users\HP>docker exec ubuntu ls=No such container: ubuntu,
+C:\Users\HP>docker exec <running container> <ls> = error,
+docker rm <container_name_or_id> = to remove container,
+cls = clear terminal logs,
+
+
+
+
+
